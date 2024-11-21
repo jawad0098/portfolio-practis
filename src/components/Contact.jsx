@@ -10,15 +10,22 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   return (
     <>
-      <div className="conatiner contact">
-        <h1>CONTACT ME</h1>
+      <div className="container contact my-5">
+        <h1 data-aos="fade-right"
+                    data-aos-duration="2000">CONTACT ME</h1>
         <div className="contact-icon">
-            <a href='https://www.instagram.com' target='_blank' className="items"><FaInstagram className='icons'  /></a>
-            <a href='https://www.facebook.com' target='_blank' className="items"><CiFacebook className='icons' /></a>
-            <a href='https://www.linkedin.com' target='_blank' className="items"><CiLinkedin className='icons' /></a>
-            <a href='https://www.twitter.com' target='_blank' className="items"><FaSquareXTwitter className='icons' /></a>
-            <a href='https://www.github.com' target='_blank' className="items"><FaSquareGithub className='icons' /></a>
-            <a href="mailto:" target='_blank'  className="items"><SiGmail className='icons' /></a>
+            <a data-aos="fade-right"
+                    data-aos-duration="1000" href='https://www.instagram.com' target='_blank' className="items"><FaInstagram className='icons'  /></a>
+            <a data-aos="fade-right"
+                    data-aos-duration="1500" href='https://www.facebook.com' target='_blank' className="items"><CiFacebook className='icons' /></a>
+            <a data-aos="fade-right"
+                    data-aos-duration="2000" href='https://www.linkedin.com' target='_blank' className="items"><CiLinkedin className='icons' /></a>
+            <a data-aos="fade-left"
+                    data-aos-duration="1000" href='https://www.twitter.com' target='_blank' className="items"><FaSquareXTwitter className='icons' /></a>
+            <a data-aos="fade-left"
+                    data-aos-duration="1500" href='https://www.github.com' target='_blank' className="items"><FaSquareGithub className='icons' /></a>
+            <a data-aos="fade-left"
+                    data-aos-duration="2000" href="mailto:hassanjawad858@gmail.com" target='_blank'  className="items"><SiGmail className='icons' /></a>
           
         </div>
       </div>

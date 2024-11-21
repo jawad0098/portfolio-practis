@@ -4,12 +4,17 @@ const Experience = () => {
     return (
         <>
             <div className="container ex">
-                <h1>EXPERIENCE</h1>
+                <h1 data-aos="fade-up"
+                data-aos-duration="1000"
+                >EXPERIENCE </h1>
                 {
                     experience.map((data) => {
                         return (
                             <>
-                                <div key={data.id} className='ex-items text-center my-5'>
+                                <div key={data.id} className='ex-items text-center my-5'
+                                data-aos="zoom-in-up"
+                                data-aos-duration="1000"
+                                >
                                     <div className="left">
                                         <img src={`/assets/${data.imageSrc}`} alt="" />
                                     </div>
