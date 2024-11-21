@@ -95,31 +95,46 @@ a {
 }
 
 /* Experience-section */
-.ex{
+.ex {
   width: 900px;
 }
-.ex-items{
+
+.ex-items {
   display: flex;
   align-items: center;
-justify-content: space-between;
-background-color: var(--bg-color);
-margin: 20px;
-width: 800px;
-padding: 30px;
-border: 1px solid yellow;
-box-shadow: var(--box-shadow);
-border-radius: 10px;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  margin: 20px;
+  width: 800px;
+  padding: 30px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
 }
 
 /* Skills-section */
-.skills{
+.skills {
   width: 900px;
 }
-.skills .items{
+
+.skills .items {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: auto;
 }
-.skills .items .item img{
+
+.skills .items .item {
+  width: calc(33.33%);
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.skills .items .item img {
   width: 70px;
 }

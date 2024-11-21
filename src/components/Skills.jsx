@@ -5,16 +5,16 @@ const Skills = () => {
         <>
             <div className="container skills">
                 <h1>Skills</h1>
-                {skills.map((data) => (
-                    <>
-                        <div className="items" key={data.id}>
-                            <div className="item">
+                <div className="items">
+                    {skills.map((data) => (
+                        <>
+                            <div  className="item"  key={data.id} >
                                 <img src={`./assets/${data.imageSrc}`} alt="" />
                                 <h3>{data.title}</h3>
                             </div>
-                        </div>
-                    </>
-                ))}
+                        </>
+                    ))}
+                </div>
             </div>
         </>
     )
