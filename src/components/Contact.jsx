@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   return (
     <>
-      <div className="container contact my-5">
+      <div className="container contact" id='contact'>
         <h1 data-aos="fade-right"
                     data-aos-duration="2000">CONTACT ME</h1>
         <div className="contact-icon">

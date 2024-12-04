@@ -21,12 +21,15 @@ const Home = () => {
   }, [])
   return (
     <>
-      <div className="container home"
+      <div className="container home" id='home'
       >
         <div className="left" 
         data-aos="fade-right"
         data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
+          <p>
+          I am a passionate front-end developer skilled in creating dynamic and responsive web interfaces. With expertise in HTML, CSS, JavaScript, and libraries like Bootstrap, Tailwind, and Material-UI, I bring designs to life with precision and creativity. I specialize in frameworks like ReactJS and Next.js, building seamless, user-focused experiences. My proficiency in jQuery enhances functionality, ensuring high-quality, interactive solutions for modern web applications.
+          </p>
           <a href={pdf} download='Resume.pdf' className="btn btn-outline-warning my-4">Download Resume</a>
         </div>
         <div className="right"

@@ -3,7 +3,7 @@ import projects from './data/projects.json'
 const Projects = () => {
     return (
         <>
-            <div className="container projects my-3">
+            <div className="container projects" id='projects'>
                 <h1 data-aos="fade-up"
                     data-aos-duration="1000">PROJECTS</h1>
                 <div className="row d-flex justify-content-center align-items-center">
