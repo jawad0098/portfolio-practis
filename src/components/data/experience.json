@@ -1,27 +1,29 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "role": "Front-End Developer",
+    "organisation": "BCI New Media",
+    "startDate": "June, 2024",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Shera-e-Faisal",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Worked on developing responsive user interfaces",
+      "Collaborated on front-end development for client projects",
+      "Utilized ReactJS, HTML, CSS, and JavaScript to build dynamic websites"
     ],
     "imageSrc": "company/google.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
+    "role": "Full-Stack Developer",
+    "organisation": "Saylani",
+    "startDate": "Aug, 2021",
     "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "location": " Bhadarabad Head office",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Worked on full-stack web development projects",
+      "Utilized technologies like ReactJS, Node.js, Express, MongoDB",
+      "Built dynamic and scalable applications"
     ],
     "imageSrc": "company/microsoft.png"
   }
