@@ -36,9 +36,11 @@ const Navbar = () => {
       {toggle && (
         <div className="mobile-menu">
           <ul>
-            <li className="menu-item">About</li>
-            <li className="menu-item">Content</li>
-            <li className="menu-item">Pages</li>
+            <li className="menu-item"><a href="#home">Home</a></li>
+            <li className="menu-item"><a href="#experience">Experience</a></li>
+            <li className="menu-item"><a href="#skills">Skills</a></li>
+            <li className="menu-item"><a href="#projects">Projects</a></li>
+            <li className="menu-item"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}
